@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23774" started-at="2022-06-13T17:51:21 SGT" finished-at="2022-06-13T17:51:45 SGT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23774" started-at="2022-06-13T17:51:21 SGT" finished-at="2022-06-13T17:51:45 SGT">
+      <class name="medRunner.runnerUser">
+        <test-method status="PASS" signature="aLaunchMedicare()[pri:0, instance:medRunner.runnerUser@196fa9e]" name="aLaunchMedicare" is-config="true" duration-ms="3832" started-at="2022-06-13T17:51:21 SGT" finished-at="2022-06-13T17:51:25 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aLaunchMedicare -->
+        <test-method status="PASS" signature="cLogIn()[pri:0, instance:medRunner.runnerUser@196fa9e]" name="cLogIn" duration-ms="2072" started-at="2022-06-13T17:51:25 SGT" finished-at="2022-06-13T17:51:27 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cLogIn -->
+        <test-method status="PASS" signature="dFilterProduct()[pri:0, instance:medRunner.runnerUser@196fa9e]" name="dFilterProduct" duration-ms="5440" started-at="2022-06-13T17:51:27 SGT" finished-at="2022-06-13T17:51:32 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dFilterProduct -->
+        <test-method status="PASS" signature="eCheckoutProduct()[pri:0, instance:medRunner.runnerUser@196fa9e]" name="eCheckoutProduct" duration-ms="5317" started-at="2022-06-13T17:51:32 SGT" finished-at="2022-06-13T17:51:38 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eCheckoutProduct -->
+        <test-method status="PASS" signature="fOrderConfirmed()[pri:0, instance:medRunner.runnerUser@196fa9e]" name="fOrderConfirmed" duration-ms="1621" started-at="2022-06-13T17:51:38 SGT" finished-at="2022-06-13T17:51:39 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fOrderConfirmed -->
+        <test-method status="PASS" signature="yLogout()[pri:0, instance:medRunner.runnerUser@196fa9e]" name="yLogout" duration-ms="2617" started-at="2022-06-13T17:51:39 SGT" finished-at="2022-06-13T17:51:42 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yLogout -->
+        <test-method status="PASS" signature="zStopMedicare()[pri:0, instance:medRunner.runnerUser@196fa9e]" name="zStopMedicare" is-config="true" duration-ms="2687" started-at="2022-06-13T17:51:42 SGT" finished-at="2022-06-13T17:51:45 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zStopMedicare -->
+      </class> <!-- medRunner.runnerUser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="MedicareAutomation(failed)">
+    <classes>
+      <class name="medRunner.runnerUser">
+        <methods>
+          <include name="dFilterProduct"/>
+          <include name="cLogIn"/>
+          <include name="aLaunchMedicare"/>
+          <include name="zStopMedicare"/>
+          <include name="fOrderConfirmed"/>
+          <include name="yLogout"/>
+          <include name="eCheckoutProduct"/>
+        </methods>
+      </class> <!-- medRunner.runnerUser -->
+      <class name="medRunner.runnerAdmin">
+        <methods>
+          <include name="cManageProduct"/>
+          <include name="bLogIn"/>
+          <include name="fLogout"/>
+          <include name="zStopMedicare"/>
+          <include name="aLaunchMedicare"/>
+        </methods>
+      </class> <!-- medRunner.runnerAdmin -->
+    </classes>
+  </test> <!-- MedicareAutomation(failed) -->
+</suite> <!-- Failed suite [Suite] -->
